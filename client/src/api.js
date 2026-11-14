@@ -1,5 +1,5 @@
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.API_URL;
 
 export const api = async (path, { method = 'GET', body } = {}) => {
   const token = localStorage.getItem('token');
